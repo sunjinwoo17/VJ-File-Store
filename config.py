@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "79e5caa103a9e9fb0183390b4800845d")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7364128304:AAEZCl3x2TKLlxwPyCFmXV_uMP7SROJE0xw")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6283322330').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Asha_File_bot") # without @
 PORT = environ.get("PORT", "8080")
 
